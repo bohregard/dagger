@@ -22,4 +22,4 @@ JAVA_RELEASE_MIN = [
     "-source 7 -target 7",
 ]
 
-POM_VERSION = "${project.version}"
+POM_VERSION = "2.45-FASTINIT"
