@@ -6,7 +6,7 @@ echo -e "Installing maven snapshot locally...\n"
 
 bash $(dirname $0)/deploy-all.sh \
   "install:install-file" \
-  "LOCAL-SNAPSHOT"
+  "2.45-FASTINIT"
 
 echo -e "Installed local snapshot"
 
