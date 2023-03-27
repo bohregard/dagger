@@ -21,7 +21,6 @@ env:
 jobs:
   bazel-build:
     name: 'Bazel build'
-    needs: validate-latest-dagger-version
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
