@@ -15,7 +15,7 @@ verify_version_file() {
   local group_path=com/google/dagger
   local artifact_id=$1
   local type=$2
-  local version="LOCAL-SNAPSHOT"
+  local version="2.45-FASTINIT"
   local temp_dir=$(mktemp -d)
   local content
   if [ $type = "jar" ]; then
