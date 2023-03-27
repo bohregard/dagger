@@ -269,7 +269,7 @@ def addPomTemplate(pom) {
 
 def getPublishVersion() {
   def publishVersion = findProperty("PublishVersion")
-  return (publishVersion != null) ? publishVersion : "LOCAL-SNAPSHOT"
+  return (publishVersion != null) ? publishVersion : "2.45-FASTINIT"
 }
 
 def checkJarFile(File jarFile, String... allowedPrefixes) {
